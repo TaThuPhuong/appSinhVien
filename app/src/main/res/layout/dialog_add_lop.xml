@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="THÊM LỚP"
+        android:textColor="#EAEAEA"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/AddId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập ID Lớp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/AddTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập Tên Lớp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAddClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#05D1BE"
+        android:text="Thêm" />
+</LinearLayout>

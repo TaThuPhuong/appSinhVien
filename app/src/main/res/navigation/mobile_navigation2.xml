@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.htrsinhvin.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gT"
+        android:name="com.example.htrsinhvin.ui.gT.GtFragment"
+        android:label="@string/menu_gT"
+        tools:layout="@layout/fragment_gT" />
+
+    <fragment
+        android:id="@+id/nav_rePass"
+        android:name="com.example.htrsinhvin.ui.pass.PassFragment"
+        android:label="@string/menu_rePass"
+        tools:layout="@layout/fragment_repass" />
+</navigation>

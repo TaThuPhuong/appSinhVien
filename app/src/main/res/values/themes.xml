@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HỗTrợSinhViên" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#D60000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.HỗTrợSinhViên.ProfileTheme">
+        <item name="colorPrimaryDark">@color/profilePrimaryDark</item>
+        <item name="colorAccent">@color/profileAccentColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+    </style>
+
+    <style name="Theme.HỗTrợSinhViên.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.HỗTrợSinhViên.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.HỗTrợSinhViên.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

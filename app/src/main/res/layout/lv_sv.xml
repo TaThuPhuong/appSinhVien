@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/imageGT"
+        android:layout_width="60dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageGT"
+        android:textColor="#F44336"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtmaSV"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txtsdt"
+        android:layout_toRightOf="@id/imageGT"
+        android:textColor="#0A0909"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txttenLop"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txtsdt"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toRightOf="@id/txtmaSV"
+        android:gravity="center|left"
+        android:textColor="#0F729E"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagecall"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txtTen"
+        android:layout_toRightOf="@id/imageGT"
+        android:background="#FF9800"
+        app:srcCompat="@android:drawable/sym_action_call" />
+
+    <ImageView
+        android:id="@+id/imagesms"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txtTen"
+        android:layout_toRightOf="@id/imagecall"
+        android:background="#FF9800"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <TextView
+        android:id="@+id/txtsdt"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txtTen"
+        android:layout_toRightOf="@id/imagesms"
+        android:gravity="center"
+        android:textColor="#4CAF50"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgSua"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:layout_toEndOf="@+id/txtTen"
+        android:src="@drawable/ic_edit" />
+
+    <ImageView
+        android:id="@+id/imgXoa"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imgSua"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/txttenLop"
+        android:layout_toRightOf="@id/imgSua"
+        android:src="@drawable/ic_delete" />
+
+
+
+</RelativeLayout>

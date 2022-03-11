@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gT"
+            android:icon="@drawable/ic_gioithieu"
+            android:title="@string/menu_gT" />
+        <item
+            android:id="@+id/nav_rePass"
+            android:icon="@drawable/ic_key"
+            android:title="@string/menu_rePass" />
+        <item
+            android:id="@+id/nav_out"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logOut" />
+    </group>
+</menu>

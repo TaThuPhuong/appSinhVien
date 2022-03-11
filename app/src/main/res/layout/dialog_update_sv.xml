@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="CẬP NHẬT SINH VIÊN"
+        android:textColor="#EAEAEA"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/EditMa"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Nhập Mã SV"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/EditTen"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Nhập Tên SV"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/EditGt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Nhập Nam hoặc Nữ"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/EditSdt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Nhập SDT SV"
+        android:inputType="phone" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Mời bạn chọn lớp"/>
+    <Spinner
+        android:id="@+id/SpinL"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="70dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnXoaTrang"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#C8009688"
+            android:text="Xóa trắng"
+            android:textSize="16sp"
+            app:cornerRadius="5dp"
+            android:layout_marginLeft="40dp"
+            />
+
+        <Button
+            android:id="@+id/BtnUpdateSV"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#C8009688"
+            android:text="Cập Nhật"
+            android:textSize="16sp"
+            app:cornerRadius="7dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

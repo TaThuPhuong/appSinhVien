@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hỗ Trợ Sinh Viên</string>
+    <string name="title_activity_main">Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gT">Giới Thiệu</string>
+    <string name="menu_rePass">Đổi mật khẩu</string>
+    <string name="menu_logOut">Logout</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="facebook_app_id">530757824870436</string>
+
+</resources>
